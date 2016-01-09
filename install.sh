@@ -122,7 +122,7 @@ print_success() {
 
 # finds all .dotfiles in this folder
 
-declare -a FILES_TO_SYMLINK=".zshrc .vimrc .vim bin oh-my-zsh oh-my-zsh-custom"
+declare -a FILES_TO_SYMLINK=".zshrc .vimrc .vim bin .oh-my-zsh oh-my-zsh-custom"
 
 echo $FILES_TO_SYMLINK
 
